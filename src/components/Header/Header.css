@@ -1,10 +1,16 @@
-header {
-    background: rgb(230, 230, 230);
-}
-
 .header-h1 {
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 0 1rem 0;
     text-align: center;
-    color: rgb(110,110,110);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.header-p {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: small;
+    color: rgb(100, 100, 100);
 }
