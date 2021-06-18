@@ -1,0 +1,10 @@
+header {
+    background: rgb(230, 230, 230);
+}
+
+.header-h1 {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    color: rgb(110,110,110);
+}
