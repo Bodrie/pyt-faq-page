@@ -17,12 +17,21 @@ function DisplayFAQ() {
         }
     ]);
 
-    
+    const isExpanded = index =>{
+        setdata(data.map((item, i) => {
+            if (i === index) {
+                item.expanded = !item.expanded;
+            } else {
+                item.expanded = false;
+            }
+            return item;
+        }))
+    }
 
     return (
         <div className="data-container">
             {data.map((item, i) => 
-                <FunctionalFAQ data={item}/>
+                <FunctionalFAQ data={item} index={i} isExpanded={isExpanded}/>
             )}
         </div>
     );
