@@ -1,11 +1,21 @@
 import React from 'react';
+import './FunctionalFAQ.css';
 
 function FunctionalFAQ({data, index}) {
-    return (
-        <div>
 
-            <div>{data.q}</div>
-            <div>{data.a}</div>
+    let isExpanded = '';
+
+    if (data.expanded === true) {
+        isExpanded = 'expanded'
+    } else {
+        isExpanded = 'not-expanded';
+    }
+    
+    return (
+        <div className={'data ' + isExpanded}>
+
+            <div className="question">{data.q}</div>
+            <div className="answer">{data.a}</div>
 
         </div>
     );

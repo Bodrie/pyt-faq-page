@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import FunctionalFAQ from './FunctionalFAQ';
+import './DisplayFAQ.css';
 
 function DisplayFAQ() {
 
@@ -16,8 +17,10 @@ function DisplayFAQ() {
         }
     ]);
 
+    
+
     return (
-        <div>
+        <div className="data-container">
             {data.map((item, i) => 
                 <FunctionalFAQ data={item}/>
             )}
