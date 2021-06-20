@@ -14,6 +14,21 @@ function DisplayFAQ() {
             q: 'Question 2',
             a: 'Answer 2',
             expanded: false
+        },
+        {
+            q: 'Question 3',
+            a: 'Answer 3',
+            expanded: false
+        },
+        {
+            q: 'Question 4',
+            a: 'Answer 4',
+            expanded: false
+        },
+        {
+            q: 'Question 5',
+            a: 'Answer 5',
+            expanded: false
         }
     ]);
 
