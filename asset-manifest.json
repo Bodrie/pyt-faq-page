@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pyt-faq-page/static/css/main.0d6da514.chunk.css",
+    "main.js": "/pyt-faq-page/static/js/main.ebbcb7ea.chunk.js",
+    "main.js.map": "/pyt-faq-page/static/js/main.ebbcb7ea.chunk.js.map",
+    "runtime-main.js": "/pyt-faq-page/static/js/runtime-main.1941e490.js",
+    "runtime-main.js.map": "/pyt-faq-page/static/js/runtime-main.1941e490.js.map",
+    "static/js/2.8e2d4db7.chunk.js": "/pyt-faq-page/static/js/2.8e2d4db7.chunk.js",
+    "static/js/2.8e2d4db7.chunk.js.map": "/pyt-faq-page/static/js/2.8e2d4db7.chunk.js.map",
+    "static/js/3.aacc9f86.chunk.js": "/pyt-faq-page/static/js/3.aacc9f86.chunk.js",
+    "static/js/3.aacc9f86.chunk.js.map": "/pyt-faq-page/static/js/3.aacc9f86.chunk.js.map",
+    "index.html": "/pyt-faq-page/index.html",
+    "static/css/main.0d6da514.chunk.css.map": "/pyt-faq-page/static/css/main.0d6da514.chunk.css.map",
+    "static/js/2.8e2d4db7.chunk.js.LICENSE.txt": "/pyt-faq-page/static/js/2.8e2d4db7.chunk.js.LICENSE.txt",
+    "static/media/FunctionalFAQ.css": "/pyt-faq-page/static/media/arrow-down.5b0512cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1941e490.js",
+    "static/js/2.8e2d4db7.chunk.js",
+    "static/css/main.0d6da514.chunk.css",
+    "static/js/main.ebbcb7ea.chunk.js"
+  ]
+}
